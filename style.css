@@ -1,0 +1,78 @@
+/* Basic CSS for my first website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 28px;
+}
+
+h2 {
+    color: darkgreen;
+    border-bottom: 2px solid lightgreen;
+    padding-bottom: 5px;
+}
+
+.section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+input {
+    padding: 8px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+}
+
+#count {
+    font-size: 24px;
+    color: red;
+    font-weight: bold;
+}
+
+#secretMsg {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#result {
+    background-color: lightgreen;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
